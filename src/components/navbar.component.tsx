@@ -16,6 +16,9 @@ const NavbarComponent = () => {
         <Link to="/contact" className="nav-link">
           Contact
         </Link>
+        <Link to="/login">
+          <button>Log In</button>
+        </Link>
       </nav>
     </header>
   );
