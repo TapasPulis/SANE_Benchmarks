@@ -4,7 +4,7 @@ const NavbarComponent = () => {
   return (
     <header className="navbar">
       <nav>
-        <Link to="/">
+        <Link to="/" className="logo">
           <img src="/src/assets/sanelogo.png" alt="Company Logo" />
         </Link>
         <Link to="/services" className="nav-link">

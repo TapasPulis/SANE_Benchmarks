@@ -41,8 +41,10 @@ body {
   opacity: 0.5;
 }
 
+.navbar nav .logo {
+  margin-right: auto;
+}
 .navbar nav img {
-  margin-right: 60rem;
   height: 100px;
   width: 160px;
 }
