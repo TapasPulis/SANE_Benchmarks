@@ -1,7 +1,7 @@
 const AboutPage = () => {
   return (
-    <div>
-      <h2>About SANE Bechmarks</h2>
+    <div className="aboutPageContainer">
+      <h2>About SANE Benchmarks</h2>
       <p>
         SANE Benchmarks is a performance testing and benchmarking platform
         focused on delivering accurate and transparent game performance analysis
@@ -31,11 +31,16 @@ const AboutPage = () => {
       <h2>Why Choose SANE Benchmarks</h2>
       <p>
         Gamers deserve clear and honest information about how their games
-        perform. SANE Benchmarks focuses on: - Accurate and unbiased testing -
-        Detailed performance analysis - Direct platform comparisons - Clear and
-        easy-to-read reports Whether you're deciding which platform to buy a
-        game on or how well your PC can run it, SANE Benchmarks provides the
-        data you need to make informed decisions.
+        perform. SANE Benchmarks focuses on:
+        <ul>
+          <li>Accurate and unbiased testing</li>
+          <li>Detailed performance analysis</li>
+          <li>Direct platform comparisons</li>
+          <li>Clear and easy-to-read reports</li>
+        </ul>
+        Whether you're deciding which platform to buy a game on or how well your
+        PC can run it, SANE Benchmarks provides the data you need to make
+        informed decisions.
       </p>
     </div>
   );
