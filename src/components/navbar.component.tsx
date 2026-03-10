@@ -7,6 +7,9 @@ const NavbarComponent = () => {
         <Link to="/" className="logo">
           <img src="/src/assets/sanelogo.png" alt="Company Logo" />
         </Link>
+        <Link to="/" className="nav-link">
+          Latest
+        </Link>
         <Link to="/services" className="nav-link">
           Services
         </Link>

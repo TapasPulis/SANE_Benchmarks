@@ -38,7 +38,7 @@ body {
 }
 
 .navbar nav .nav-link:hover {
-  opacity: 0.5;
+  color: blueviolet;
 }
 
 .navbar nav .logo {
