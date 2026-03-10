@@ -38,20 +38,20 @@ const GamesComponent = () => {
         </Link>
       </div>
       <div className="game">
-        <Link to="/resident-evil-4">
+        <Link to="/elden-ring">
           {" "}
           <img
-            src="/src/assets/ResidentEvil4.jpg"
-            alt="Cover Image of Resident Evil 4"
+            src="/src/assets/eldenring.webp"
+            alt="Cover Image of Elden Ring"
           />
         </Link>
       </div>
       <div className="game">
-        <Link to="/resident-evil-4">
+        <Link to="/cyberpunk-2077">
           {" "}
           <img
-            src="/src/assets/ResidentEvil4.jpg"
-            alt="Cover Image of Resident Evil 4"
+            src="/src/assets/cyberpunk.jpg"
+            alt="Cover Image of Cyberpunk 2077"
           />
         </Link>
       </div>
