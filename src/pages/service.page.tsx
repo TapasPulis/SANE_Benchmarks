@@ -1,6 +1,7 @@
 const ServicePage = () => {
   return (
     <div>
+      <h1 id="join-us">Join Us!</h1>
       <div className="freePlan">
         <h1>Free Plan</h1>
         <p>Enjoy basic features for free!</p>
@@ -24,7 +25,9 @@ const ServicePage = () => {
             Estimated FPS for different games based on our benchmark tests
           </li>
           <li>The user can compare their PC with the company's test PC</li>
-          <li>Access to all benchmark tests for every platform</li>
+          <li>
+            Access to all benchmark tests for every platform(PS4, PS5 and PC)
+          </li>
           <li>Ad-free experience</li>
         </ul>
       </div>
