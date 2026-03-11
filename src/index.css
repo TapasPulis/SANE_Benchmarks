@@ -220,8 +220,96 @@ body {
   background-color: #333;
 }
 
-/* Footer component styles */
+/* Service page styles */
 
+.freePlan {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px black;
+  display: block;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  max-width: 400px;
+  margin: 5rem auto;
+}
+
+.freePlan h1 {
+  font-family: "Nunito", sans-serif;
+  color: blueviolet;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.freePlan p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.freePlan li {
+  margin-top: 1rem;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.premiumPlan {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px black;
+  display: block;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  max-width: 400px;
+  margin: 5rem auto;
+}
+
+.premiumPlan h1 {
+  font-family: "Nunito", sans-serif;
+  color: blueviolet;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.premiumPlan p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.premiumPlan li {
+  margin-top: 1rem;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.subscriptionsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 5rem 15rem;
+  max-width: 1200px;
+}
+
+.subscriptionsContainer .subscriptionCard {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px black;
+  display: block;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.subscriptionsContainer .subscriptionCard:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px black;
+}
+
+/* Footer component styles */
 .footerContainer footer {
   padding: 1rem;
   text-align: center;
